@@ -7,9 +7,9 @@ Schedules are configured using a cron-like syntax.
 Valid scheduling fields are:
 - `minute`
 - `hour`
-- `day_of_week`
-- `day_of_month`
-- `month_of_year`
+- `dayOfWeek`
+- `dayOfMonth`
+- `monthOfYear`
 - `year`
 
 These can be set to strings that align closely with cron syntax. Some valid strings are:
