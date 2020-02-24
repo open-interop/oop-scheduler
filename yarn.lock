@@ -3010,9 +3010,10 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
-"oop-node-common@https://github.com/open-interop/oop-node-common#develop":
-  version "0.0.1"
-  resolved "https://github.com/open-interop/oop-node-common#c9f85f219a12c9b6a5cd44ff0159b444c4e547a5"
+oop-node-common@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/oop-node-common/-/oop-node-common-1.0.2.tgz#bee58c43388ff5d29100fb08472fb38a5906f1b0"
+  integrity sha512-cv34wRt6dRqQsniiNfwu2lTclNhD4bTBYedbLelZI1dPRQ/MuLiXjHoeUGjZAYVeVIHO4RSjspyvDHCrvviOPQ==
   dependencies:
     amqplib "^0.5.5"
     dotenv "^8.1.0"
