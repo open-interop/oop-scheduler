@@ -7,5 +7,6 @@ module.exports = new oop.Config({
 
     schedulerOutputQ: "OOP_SCHEDULER_OUTPUT_Q",
 
-    oopCoreApiUrl: "OOP_CORE_API_URL"
+    oopCoreApiUrl: "OOP_CORE_API_URL",
+    scheduleUpdateQ: "OOP_SCHEDULE_UPDATE_Q"
 });
