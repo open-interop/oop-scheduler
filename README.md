@@ -37,6 +37,7 @@ The interpretation of these strings can lead to a few gotchas, for example, `*/5
 - `OOP_CORE_API_URL`: The API URL for core which will be used to request authentication details.
 - `OOP_CORE_TOKEN`: The API token for core.
 - `OOP_SCHEDULER_OUTPUT_Q`: The queue this service will publish to when a schedule has run.
+- `OOP_SCHEDULE_UPDATE_Q`: The queue to read from with schedule updates.
 
 ## Testing
 
