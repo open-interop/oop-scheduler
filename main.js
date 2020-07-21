@@ -6,7 +6,7 @@ const uuid = uuidv4;
 let scheduleManager;
 
 const main = (broker, config, logger) => {
-    scheduleManager = new ScheduleManager(config, logger, schedule => {
+    scheduleManager = new ScheduleManager(broker, config, logger, schedule => {
         logger.info(`Running schedule: ${schedule.id}.`);
 
         const message = {

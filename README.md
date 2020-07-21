@@ -37,6 +37,7 @@ The interpretation of these strings can lead to a few gotchas, for example, `*/5
 - `OOP_CORE_API_URL`: The API URL for core which will be used to request authentication details.
 - `OOP_CORE_TOKEN`: The API token for core.
 - `OOP_SCHEDULER_OUTPUT_Q`: The queue this service will publish to when a schedule has run.
+- `OOP_SCHEDULE_UPDATE_Q`: The queue to read from with schedule updates.
 
 ## Testing
 
@@ -48,7 +49,7 @@ We welcome help from the community, please read the [Contributing guide](https:/
 
 ## Licence
 
-Copyright (C) 2019 Blue Frontier IT Ltd
+Copyright (C) 2020 The Software for Health Foundation Limited <https://softwareforhealth.org/>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published

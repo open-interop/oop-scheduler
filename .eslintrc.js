@@ -13,7 +13,7 @@ module.exports = {
     },
     plugins: ["prettier", "ava"],
     rules: {
-        indent: [1, 4],
+        indent: [1, 4, { "SwitchCase": 1 }],
         curly: ["error", "all"],
         "prettier/prettier": "error",
         "linebreak-style": ["error", "windows"],
